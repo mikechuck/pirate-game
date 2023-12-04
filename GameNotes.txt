@@ -1,0 +1,37 @@
+Game Mode
+- Each crew of 4 gets their own boat
+- Every team starts off with basic boat
+- Shoot each other with guns
+	- players just have guns, or boats have guns too?
+- Guns damage other players and other boats
+- Build defense on your boat
+- Repair boat so you don't sink
+Day/night cycle: enable lights to see enemy, but will also give you away
+
+Player classes:
+- Catcher
+	- Catches loot in water to get team more points
+	- Has pistol
+- Gunner
+	- Longer range gun
+	- faster movement
+	- bombs?
+- Heavy guner
+	- bigger gun that can mount on the boat
+	- moves slower
+	- lot of ammo
+- Repairman
+	- can repair the boat
+	- can heal players
+- Captian
+	- drives the boat, has a pistol
+- Builder
+	- can build defenses using team points
+
+MVP
+- Create boat model and Player model
+- Spawn boat that floats
+- Spawn players that can shoot
+- Be able to drive boat
+- Player gets hit by bullet and dies
+- Last team standing wins
