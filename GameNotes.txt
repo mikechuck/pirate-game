@@ -35,3 +35,6 @@ MVP
 - Be able to drive boat
 - Player gets hit by bullet and dies
 - Last team standing wins
+
+
+leftoff: finish adding inputs from docs, figure out how to add bp_player as default spawn
