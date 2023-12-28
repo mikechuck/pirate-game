@@ -37,5 +37,4 @@ MVP
 - Last team standing wins
 
 
-leftoff: Need to figure out why welding actors together cause grouping to bug out and fly. Maybe need to add a new collision profile?
-https://forums.unrealengine.com/t/why-does-an-actor-fly-away-when-i-stick-other-actors-to-it/634858/2
+leftoff: Finish stop control boat function. Test curent and then have play leave boat? or just stay?
