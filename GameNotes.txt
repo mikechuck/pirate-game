@@ -37,4 +37,5 @@ MVP
 - Last team standing wins
 
 
-leftoff: Finish stop control boat function. Test curent and then have play leave boat? or just stay?
+leftoff: Finishing hooking up inputs to bp_boat_base. how to add force?
+then use c++ to re-pair root so that buoyancy will work again
