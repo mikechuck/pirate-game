@@ -37,5 +37,4 @@ MVP
 - Last team standing wins
 
 
-leftoff: Finishing hooking up inputs to bp_boat_base. how to add force?
-then use c++ to re-pair root so that buoyancy will work again
+leftoff: IMC's are switching fine, but character isn't free to move after switch back
