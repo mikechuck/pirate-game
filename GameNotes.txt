@@ -37,4 +37,7 @@ MVP
 - Last team standing wins
 
 
-leftoff: Finalize bp_boat_base/character interactions, then figure out how to overrride root for inherited class (probably c++) to make buoyancy work
+leftoff:
+- Finish reworking overlap triggers for boat driver
+- Might need a static interaction widget (variable or component?) to prevent multiple draws
+- End overlap is not removing interact widget for some reason
