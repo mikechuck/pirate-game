@@ -1,6 +1,7 @@
 Notable links:
 MP: https://www.youtube.com/watch?v=dQD_sPFXcBg&list=TLPQMjEwMTIwMjRduiBGWQZ9Tg&index=2
 Water masking: https://www.youtube.com/watch?v=mEyU18wwMcM
+Setting up C++: https://www.youtube.com/watch?v=dxgGpPTcF4k
 
 
 Game Mode

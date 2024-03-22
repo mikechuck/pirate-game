@@ -19,5 +19,5 @@ public:
 	virtual ~AGameStateLobby() = default;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int32 PlayerCount;
+	int32 PlayerCount;
 };

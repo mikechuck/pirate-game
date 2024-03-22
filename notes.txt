@@ -1,0 +1,4 @@
+Building C++ project:
+- open in Visual Studio
+- Press ctrl + alt + f11 to build to "live coding" window in ue5
+- C++ classes should show up in the content browser after building
