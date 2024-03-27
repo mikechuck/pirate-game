@@ -9,6 +9,7 @@ AGameModeLobby::AGameModeLobby()
 	GameStateClass = AGameStateLobby::StaticClass();
 }
 
+/* Player count operations */
 int32 AGameModeLobby::GetPlayerCount() const
 {
 	return GetGameState<AGameStateLobby>()->PlayerCount;
