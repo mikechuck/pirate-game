@@ -2,3 +2,14 @@ Building C++ project:
 - open in Visual Studio
 - Press ctrl + alt + f11 to build to "live coding" window in ue5
 - C++ classes should show up in the content browser after building
+
+
+
+
+- OnLogin, add new array element in GameState with PlayerId
+- On ConnectedPlayerInfo gamestate change, create a new row in PlayerList, using the PlayerId as index
+	- if row already exists, just update corresponding data for that row
+- When client changes ready, send to serverrpc to toggle status for that player's id in ConnectedPlayerInfo gamestate
+
+
+- When gamestate changes, emit event to tell all clients to run UpdatePlayerInfo

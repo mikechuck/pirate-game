@@ -1,0 +1,16 @@
+@startuml
+
+
+skinparam BoxPadding 0
+skinparam ParticipantPadding 25
+participant Client1 as C1
+
+box 
+participant Server as SV
+end box
+
+SV -> SV : Server starts listening for connections
+C1 -> SV : Client connects to server
+SV -> SV : Server gets PlayerController of \nnewly connected player
+
+@enduml
