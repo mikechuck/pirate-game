@@ -1,0 +1,9 @@
+- Create game state for main menu (do we need different game states per level? maybe just use one GS for whole game)
+- Remove spaghettio code in main menu PC
+- continute watching video to connect dots between main menu and session lobby
+	- this includes the invite path and join path (maybe we don't have a join path?)
+	- use the player count from CreateSession in sessionlobby
+- add logic to session lobby to ensure equal(ish) teams
+- iron out start of gameplay_level to use Game state values to assign spawn locations and teams
+
+- adjust spawn locations per team so they have boat
