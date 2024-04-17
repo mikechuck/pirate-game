@@ -1,3 +1,4 @@
+- replicate teamoptions selection per player
 - Create game state for main menu (do we need different game states per level? maybe just use one GS for whole game)
 - Remove spaghettio code in main menu PC
 - continute watching video to connect dots between main menu and session lobby
