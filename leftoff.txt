@@ -14,4 +14,21 @@ Gameplay level:
 
 
 
-leftoff: spawn a pawn for each player, possess pawn by each player's player controller
+
+- Need to add "add change player controller" handler to GM Session (maybe GM Gameplayer) as well, to handle switching controllers between levels
+
+- in game mode, create function that is going to spawn all players
+	- Function: grab player starts for each team, save them to an array
+	- Function: spawn player
+		- input: player controller
+		- first "get controlled pawn" to see if the player controller already controls one
+			- if so, destroy actor
+		- spawn actor from class
+		- possess new actor by input controller
+- in PC, invoke the GM functions
+	- invoke initiate the SpawnPlayer from client, using a server rpc function 
+
+
+leftoff: watch video on managing addchangeplayercontroller so that we can track player controller changes between levels. This way we can still map a user's player controller to a team
+- Loop in game mode to wait for all players to be connected before invoking each player's PC to run "create player" code i added previous commit
+- spawn player to a team location
