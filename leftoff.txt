@@ -13,23 +13,9 @@ Gameplay level:
 - adjust spawn locations per team so they have boat
 
 
-
-
-- Need to add "add change player controller" handler to GM Session (maybe GM Gameplayer) as well, to handle switching controllers between levels
-
-- in game mode, create function that is going to spawn all players
-	- Function: grab player starts for each team, save them to an array
-	- Function: spawn player
-		- input: player controller
-		- first "get controlled pawn" to see if the player controller already controls one
-			- if so, destroy actor
-		- spawn actor from class
-		- possess new actor by input controller
-- in PC, invoke the GM functions
-	- invoke initiate the SpawnPlayer from client, using a server rpc function 
-
-
 leftoff:
-- Can possess players but can't move, need to figure that out
-- spawn each player to a team location
+- Try first:
+	- On server connect in GM, check to see if GlobalGameInstance.ConnectorPlayerInfo is empty
+	- If so, set flag "local testing" and alternate between spawning players between blue and red
+- Continue adding the structs to C++ code (TeamOption and ConntectedPlayerInfo (previously PlayerInfo))
 
