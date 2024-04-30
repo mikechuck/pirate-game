@@ -11,6 +11,7 @@ Session lobby:
 Gameplay level:
 - iron out start of gameplay_level to use Game state values to assign spawn locations and teams
 - adjust spawn locations per team so they have boat
+- Non-host players can't drive boat (teleport into ground). Host works fine
 
 
 leftoff:
