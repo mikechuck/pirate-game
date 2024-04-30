@@ -13,3 +13,4 @@ Gameplay level:
 
 
 leftoff:
+- fix water masking with fixed blockout from blender (https://www.youtube.com/watch?v=mEyU18wwMcM)
