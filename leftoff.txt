@@ -9,14 +9,7 @@ Session lobby:
 - add logic to session lobby to ensure equal(ish) teams
 
 Gameplay level:
-- iron out start of gameplay_level to use Game state values to assign spawn locations and teams
-- adjust spawn locations per team so they have boat
 - Non-host players can't drive boat (teleport into ground). Host works fine
 
 
 leftoff:
-- Try first:
-	- On server connect in GM, check to see if GlobalGameInstance.ConnectorPlayerInfo is empty
-	- If so, set flag "local testing" and alternate between spawning players between blue and red
-- Continue adding the structs to C++ code (TeamOption and ConntectedPlayerInfo (previously PlayerInfo))
-
