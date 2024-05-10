@@ -9,9 +9,21 @@ Session lobby:
 - add logic to session lobby to ensure equal(ish) teams
 
 Gameplay level:
-- Non-host players can't drive boat (teleport into ground). Host works fine
-
+- redo the player HUD (remove ui from cp_character_base and move to actual HUD blueprint)
+- fix weird water artifact (low priority)
+- non-server boat moves faster it seems. Check speeds?
+- Client player sees own body teleport to world origin, not visible on server
+- Player models dissapear when being parented to boat
+- weapon swap replication
+- start on gun overhaul
+	- set a slow fire rate
+	- add a kickback aniumation
+	- add a gun sound
+	- add smoke
+	- make bullet animate to puff and dissapear when hitting something
+	- hit marker sound? (activate when hitting another player or boat)
+- do same thing for cannon ^
 
 leftoff:
-- fix controlling boat
-	- go through full flow of character pawn possess, boat pawn possess, and make sure things are happening on correct space (client or server)
+- fix "stop control boat" flow
+
