@@ -27,3 +27,11 @@ Gameplay level:
 leftoff:
 - fix "stop control boat" flow
 
+
+
+MP sound design:
+- play sound on client
+- send to server rpc "broadcast sound" with cue as input
+- on server gamemode, send a broadcast "play this sound at this location"
+- DONE all server players subscribe to gamemode "broadcast sound"
+- client rpc: play this sound at this location 
