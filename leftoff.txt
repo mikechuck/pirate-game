@@ -25,6 +25,7 @@ Gameplay level:
 - do same thing for cannon ^
 
 leftoff:
+- Client triggers a shoot for the host as well. Also shoots twice. Sound doesn't come from host on client view either
 - fix "stop control boat" flow
 
 
