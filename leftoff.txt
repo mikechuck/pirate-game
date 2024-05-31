@@ -36,3 +36,4 @@ MP sound design:
 - on server gamemode, send a broadcast "play this sound at this location"
 - DONE all server players subscribe to gamemode "broadcast sound"
 - client rpc: play this sound at this location 
+- add sound delay: speed of sound is: 34300 units / s
