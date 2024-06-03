@@ -23,10 +23,14 @@ Gameplay level:
 	- make bullet animate to puff and dissapear when hitting something
 	- hit marker sound? (activate when hitting another player or boat)
 - do same thing for cannon ^
+- Add randomized noat angling/bobbing
+- fix normals on the boat rope. Might need to redo, depending on how it was made. Maybe activate a "both side" mode?
 
 leftoff:
 - Client triggers a shoot for the host as well. Also shoots twice. Sound doesn't come from host on client view either
 - fix "stop control boat" flow
+- fix control cannons
+- maybe decrease the water wave height for now to test
 
 
 
@@ -36,4 +40,8 @@ MP sound design:
 - on server gamemode, send a broadcast "play this sound at this location"
 - DONE all server players subscribe to gamemode "broadcast sound"
 - client rpc: play this sound at this location 
-- add sound delay: speed of sound is: 34300 units / s
+- add sound delay: speed of sound is: 34300 units/s
+
+Gameplay HUD:
+- Controls weather to show PlayerHud or PauseMenu
+- Be able to spawn menus on top of PlayerHud (like in-game menus for crates, inventories, maps overlay, etc)
