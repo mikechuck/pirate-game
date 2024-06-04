@@ -25,6 +25,7 @@ Gameplay level:
 - do same thing for cannon ^
 - Add randomized noat angling/bobbing
 - fix normals on the boat rope. Might need to redo, depending on how it was made. Maybe activate a "both side" mode?
+- Move weapon swapping logic to SRPC
 
 leftoff:
 - Client triggers a shoot for the host as well. Also shoots twice. Sound doesn't come from host on client view either
