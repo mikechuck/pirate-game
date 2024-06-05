@@ -9,11 +9,7 @@ Session lobby:
 - add logic to session lobby to ensure equal(ish) teams
 
 Gameplay level:
-- redo the player HUD (remove ui from cp_character_base and move to actual HUD blueprint)
-- fix weird water artifact (low priority)
 - non-server boat moves faster it seems. Check speeds?
-- Client player sees own body teleport to world origin, not visible on server
-- Player models dissapear when being parented to boat
 - weapon swap replication
 - start on gun overhaul
 	- set a slow fire rate
@@ -22,14 +18,21 @@ Gameplay level:
 	- add smoke
 	- make bullet animate to puff and dissapear when hitting something
 	- hit marker sound? (activate when hitting another player or boat)
+	- add smoke to shoot
+	- add recoil to shoot
+	- add reload circle to hud for shoot
 - do same thing for cannon ^
 - Add randomized noat angling/bobbing
 - fix normals on the boat rope. Might need to redo, depending on how it was made. Maybe activate a "both side" mode?
 - Move weapon swapping logic to SRPC
+- Items:
+	- Change weapons to not show realtime weapon, but a hud-only version. So we don't have to worry about angles, views etc
+
 
 leftoff:
-- Client triggers a shoot for the host as well. Also shoots twice. Sound doesn't come from host on client view either
 - fix "stop control boat" flow
+	- when pressing exit boat, it moves the server pawn to the location, not the pawn owner on the server and clients
+		- need to do an owner check with the incoming PC to move the correct pawn
 - fix control cannons
 - maybe decrease the water wave height for now to test
 
