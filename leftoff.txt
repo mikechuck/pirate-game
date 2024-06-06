@@ -30,6 +30,9 @@ Gameplay level:
 
 
 leftoff:
+- fix control boat flow
+	- leftoff: split up the ControlBoat into correct sections, but now boat controls don't work post possess.
+	- the check for "get player controller [0]" is wrong for the server implementation of this. Need to bypass if server?
 - fix "stop control boat" flow
 	- when pressing exit boat, it moves the server pawn to the location, not the pawn owner on the server and clients
 		- need to do an owner check with the incoming PC to move the correct pawn
