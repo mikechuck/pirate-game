@@ -5,3 +5,5 @@ Building C++ project:
 
 
 Text color: (linear) 939393FF
+
+Server-only comment color: 0032FFFF
