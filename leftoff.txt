@@ -31,6 +31,8 @@ Gameplay level:
 
 leftoff:
 - fix control cannons
+	- gun doesn't disappear
+	- turning and shooting is not replicateds
 - Add reload UI to gun and cannon
 - fix weapon swapping (move to server-authoritative)
 - Override puirate hat material to team color on spawn
