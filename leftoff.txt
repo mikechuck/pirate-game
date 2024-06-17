@@ -30,9 +30,10 @@ Gameplay level:
 
 
 leftoff:
+- Client movement is stuttery on the boat. How do we fix that? replication?
+	- I think I need client side prediction for player as well as the boat to make things smooth. Movement is fine as long as it's smooth https://www.reddit.com/r/unrealengine/comments/m8dw4x/walking_on_a_moving_ship_sea_of_thieves_space/
 - fix control cannons
 	- gun only disapears on the server
-	- finish exit boat flow
 	- add cannon reload times logic
 - Add reload UI to gun and cannon
 - fix weapon swapping (move to server-authoritative)
