@@ -7,3 +7,24 @@ Building C++ project:
 Text color: (linear) 939393FF
 
 Server-only comment color: 0032FFFF
+
+
+
+
+Client side prediction
+- at start gameplay (client and server), start "StateUpdateCount"
+- set Client loop: every 100ms:
+	- increment StateUpdateCount
+	- send an update call to the ServerRPC with data:
+		- StateUpdateCount
+		- new information (position)
+		- 
+- setup a queue data structure on server
+- every tick on the server interval:
+	- As fast as it can, pull first item in the queue (oldest) and process
+
+
+- get confirmed position from array using incoming index
+- loop through map until end (length)
+- maths the latest position that was sent to the sever and apply it
+

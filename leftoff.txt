@@ -57,3 +57,8 @@ MP sound design:
 Gameplay HUD:
 - Controls weather to show PlayerHud or PauseMenu
 - Be able to spawn menus on top of PlayerHud (like in-game menus for crates, inventories, maps overlay, etc)
+
+
+
+LEFTOFF:
+- need to figure out how to have owning clients AND listen server client bind to the state update event on begin play bp_character_base
