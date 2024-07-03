@@ -37,7 +37,7 @@ leftoff:
 	- add cannon reload times logic
 - Add reload UI to gun and cannon
 - fix weapon swapping (move to server-authoritative)
-- Override puirate hat material to team color on spawn
+- Override pirate hat material to team color on spawn
 - add ui to indicate "enemy" when pointing at other team (line trace), change crosshair to red
 - move item overhaul (separate 1st person and 3rd person item views)
 	- make sure item rotation (esp vertical) is replicated
@@ -61,4 +61,4 @@ Gameplay HUD:
 
 
 LEFTOFF:
-- need to figure out how to have owning clients AND listen server client bind to the state update event on begin play bp_character_base
+- finish replicating rotatations to server and other clients. Manually adjust rotate character components to imitate controller rotation
