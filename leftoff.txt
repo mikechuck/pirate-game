@@ -61,4 +61,5 @@ Gameplay HUD:
 
 
 LEFTOFF:
-- finish replicating rotatations to server and other clients. Manually adjust rotate character components to imitate controller rotation
+- Implement client side prediction for boat movement
+	- moving the boat on the client side

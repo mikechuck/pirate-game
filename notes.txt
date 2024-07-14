@@ -28,3 +28,33 @@ Client side prediction
 - loop through map until end (length)
 - maths the latest position that was sent to the sever and apply it
 
+
+
+Todo:
+- Replicate boat
+	- position and roatation
+	- same as player, no need to do extra server checks
+- Fix anything improperly replicated with controlling boat and cannon
+- Projectiles
+	- Create new collision channel for bullets + cannonballs
+	- add this channel to anything that needs to be hitable by projectiles
+	- make sound when anything is hit (can originate from projectile itself, not hit actor)
+	- make puff of smoke when something is hit
+	- hitmarker sound too?
+- fix all normals on all items (gun, sword, shovel)
+- Overhaul player items view
+	- Create separate instance of item that's only visible to player
+	- Create usage animations (gun recoil, sword swing)
+- Shooting (gun and cannon)
+	- When shooting, add reload wheel to UI around the reticle
+- Sword
+	- Swing animation
+	- Hit indicator
+		- sound
+		- visual puff of smoke
+- Player health bars
+	- Create health system
+	- health reduced when hit with bullet or sword
+		- different damages per area of player
+	- Show health bar on player screen hud
+	- show enemy health bar above enemy player (billboard)
