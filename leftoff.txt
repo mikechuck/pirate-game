@@ -61,5 +61,5 @@ Gameplay HUD:
 
 
 LEFTOFF:
-- Implement client side prediction for boat movement
-	- moving the boat on the client side
+- When player is driving boat, do client side prediction like player_base
+- When a boat is not being controlled, just multicast out it's position
