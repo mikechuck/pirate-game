@@ -61,5 +61,35 @@ Gameplay HUD:
 
 
 LEFTOFF:
+- Figure out why build doesn't possess character on start
+- Start on health system 
+	- give players health
+	- add to UI (bar on the top?)
+	- hook up player name to UI
+	- add logic to decrease hp of player on SERVER hit
+	- add a screen indication that player is hit (quick flash/dim, quick camera shake, etc)
+	- When health hits 0, initiate a death sequence for that player for all clients
+
+- Sounds
+	- new shoot sound (more of a pop sound)
+	- add hit sound 
+		- hitmarker for shooting player
+		- hit sound on object/player for all players
+	- add muzzle smoke and hit smoke (simple fast expanding circles that disappear)
+
+- Death sequence
+	- Fade screen to black "Argh you died"
+	- "Press button to respawn"
+
+- Respawn logic
+	- reuse initial spawn logic for spawning specific player, possessing, etc
+
+- UI
+	- Show other player health when close enouigh (line trace interating with large collider around player)
+		- billboard
+		- friendlies always show health
+		- enemies only show when close enough
+	- Change color of reticle when aiming at an enemy
+	
 - When player is driving boat, do client side prediction like player_base
 - When a boat is not being controlled, just multicast out it's position
