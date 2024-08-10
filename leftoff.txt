@@ -98,3 +98,6 @@ LEFTOFF:
 - Continue to figure out how to hide player mesh on listen server
 	- figure out "is this instance controlled locally"
 	- worked before, not sure why it doesn't anymore....
+- boat hull doesn't have "visibility" collition for line traces and bullet hit.
+	- add to water as well for splashes
+	
