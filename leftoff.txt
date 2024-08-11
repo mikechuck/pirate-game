@@ -95,9 +95,8 @@ NEXT:
 - When a boat is not being controlled, just multicast out it's position
 
 LEFTOFF:
-- Continue to figure out how to hide player mesh on listen server
-	- figure out "is this instance controlled locally"
-	- worked before, not sure why it doesn't anymore....
-- boat hull doesn't have "visibility" collition for line traces and bullet hit.
-	- add to water as well for splashes
-	
+- Fix session lobby. Second player to join overwrites the "server" and they both control the same ready state
+- continue on blocking the gameplay logic flows:
+	- wait for all players. when they're all connected, multicast to all PCs to do specific actions like possessing 
+	- Slow connections messes with some flows (hiding gun types)
+	- try another build. seems like the server might technically be a spectator 
